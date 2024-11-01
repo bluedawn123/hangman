@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Letter from './Letter';
-import userEvent from '@testing-library/user-event';
 
 const LetterGrid = ({secretWord, guessedLetters, answerLength, complete})=>{
 
